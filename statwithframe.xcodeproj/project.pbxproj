@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C317E4D62120A5B100746F90 /* statwithframe.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E4D52120A5B100746F90 /* statwithframe.h */; };
+		C317E4D82120A5B100746F90 /* statwithframe.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E4D72120A5B100746F90 /* statwithframe.m */; };
+		C317E4E42120A5DB00746F90 /* greeter.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E4DE2120A5DA00746F90 /* greeter.h */; };
+		C317E4E52120A5DB00746F90 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C317E4DF2120A5DA00746F90 /* main.mm */; };
+		C317E4E72120A5DB00746F90 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E4E12120A5DB00746F90 /* ViewController.h */; };
+		C317E4E82120A5DB00746F90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E4E22120A5DB00746F90 /* ViewController.m */; };
+		C317E51F2120C11800746F90 /* FLEView.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E50F2120C11700746F90 /* FLEView.m */; };
+		C317E5202120C11800746F90 /* FLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E5102120C11700746F90 /* FLEViewController.m */; };
+		C317E5212120C11800746F90 /* FLEReshapeListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5112120C11700746F90 /* FLEReshapeListener.h */; };
+		C317E5222120C11800746F90 /* FLEView.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5122120C11700746F90 /* FLEView.h */; };
+		C317E5232120C11800746F90 /* FLECodecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E5132120C11700746F90 /* FLECodecs.m */; };
+		C317E5242120C11800746F90 /* FLEChannels.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5142120C11700746F90 /* FLEChannels.h */; };
+		C317E5252120C11800746F90 /* FLEChannels.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E5152120C11700746F90 /* FLEChannels.m */; };
+		C317E5262120C11800746F90 /* FLEPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5162120C11700746F90 /* FLEPlugin.h */; };
+		C317E5272120C11800746F90 /* FLETextInputModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5172120C11700746F90 /* FLETextInputModel.h */; };
+		C317E5282120C11800746F90 /* FLETextInputPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E5182120C11700746F90 /* FLETextInputPlugin.m */; };
+		C317E5292120C11800746F90 /* FlutterEmbedderMac.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5192120C11700746F90 /* FlutterEmbedderMac.h */; };
+		C317E52A2120C11800746F90 /* FLEOpenGLContextHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E51A2120C11700746F90 /* FLEOpenGLContextHandling.h */; };
+		C317E52B2120C11800746F90 /* FLETextInputPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E51B2120C11700746F90 /* FLETextInputPlugin.h */; };
+		C317E52C2120C11800746F90 /* FLECodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E51C2120C11700746F90 /* FLECodecs.h */; };
+		C317E52D2120C11800746F90 /* FLETextInputModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E51D2120C11700746F90 /* FLETextInputModel.m */; };
+		C317E52E2120C11800746F90 /* FLEViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E51E2120C11800746F90 /* FLEViewController.h */; };
+		C317E5352120C14C00746F90 /* FLEColorPanelPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5322120C14C00746F90 /* FLEColorPanelPlugin.h */; };
+		C317E5362120C14C00746F90 /* FlutterEmbedderColorPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5332120C14C00746F90 /* FlutterEmbedderColorPanel.h */; };
+		C317E5372120C14C00746F90 /* FLEColorPanelPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = C317E5342120C14C00746F90 /* FLEColorPanelPlugin.mm */; };
+		C317E53A2120C15300746F90 /* channel_constants.cc in Sources */ = {isa = PBXBuildFile; fileRef = C317E5382120C15300746F90 /* channel_constants.cc */; };
+		C317E53B2120C15300746F90 /* channel_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5392120C15300746F90 /* channel_constants.h */; };
+		C317E53F2120C16200746F90 /* FLEFileChooserPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E53C2120C16200746F90 /* FLEFileChooserPlugin.h */; };
+		C317E5402120C16200746F90 /* FLEFileChooserPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = C317E53D2120C16200746F90 /* FLEFileChooserPlugin.mm */; };
+		C317E5412120C16200746F90 /* FlutterEmbedderFileChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E53E2120C16200746F90 /* FlutterEmbedderFileChooser.h */; };
+		C317E5442120C17200746F90 /* channel_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5422120C17200746F90 /* channel_constants.h */; };
+		C317E5452120C17200746F90 /* channel_constants.cc in Sources */ = {isa = PBXBuildFile; fileRef = C317E5432120C17200746F90 /* channel_constants.cc */; };
+		C317E54A2120C18200746F90 /* FLEMenubarPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = C317E5462120C18200746F90 /* FLEMenubarPlugin.mm */; };
+		C317E54B2120C18200746F90 /* FlutterEmbedderMenubar.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5472120C18200746F90 /* FlutterEmbedderMenubar.h */; };
+		C317E54C2120C18200746F90 /* FlutterEmbedderFileChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5482120C18200746F90 /* FlutterEmbedderFileChooser.h */; };
+		C317E54D2120C18200746F90 /* FLEMenubarPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E5492120C18200746F90 /* FLEMenubarPlugin.h */; };
+		C317E5502120C18D00746F90 /* channel_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E54E2120C18D00746F90 /* channel_constants.h */; };
+		C317E5512120C18D00746F90 /* channel_constants.cc in Sources */ = {isa = PBXBuildFile; fileRef = C317E54F2120C18D00746F90 /* channel_constants.cc */; };
+		C317E553212141C600746F90 /* FlutterEmbedder.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E552212141C600746F90 /* FlutterEmbedder.h */; };
+		C317E55D2121431C00746F90 /* FlutterEmbedder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C317E4FE2120C0D200746F90 /* FlutterEmbedder.framework */; };
+		C317E57C21214A6800746F90 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E57821214A6800746F90 /* AppDelegate.h */; };
+		C317E57D21214A6800746F90 /* NewExampleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E57921214A6800746F90 /* NewExampleWindow.m */; };
+		C317E57E21214A6800746F90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E57A21214A6800746F90 /* AppDelegate.m */; };
+		C317E57F21214A6800746F90 /* NewExampleWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E57B21214A6800746F90 /* NewExampleWindow.h */; };
+		C317E58421214A7600746F90 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C317E58021214A7600746F90 /* AppDelegate.h */; };
+		C317E58521214A7600746F90 /* NewExampleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E58121214A7600746F90 /* NewExampleWindow.m */; };
+		C317E58621214A7600746F90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C317E58221214A7600746F90 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C317E4D22120A5B100746F90 /* libstatwithframe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstatwithframe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C317E4D52120A5B100746F90 /* statwithframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statwithframe.h; sourceTree = "<group>"; };
+		C317E4D72120A5B100746F90 /* statwithframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = statwithframe.m; sourceTree = "<group>"; };
+		C317E4DE2120A5DA00746F90 /* greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greeter.h; sourceTree = "<group>"; };
+		C317E4DF2120A5DA00746F90 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		C317E4E12120A5DB00746F90 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C317E4E22120A5DB00746F90 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C317E4FB2120C02100746F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../intelgo/Info.plist; sourceTree = "<group>"; };
+		C317E4FE2120C0D200746F90 /* FlutterEmbedder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlutterEmbedder.framework; path = ../../../../../flutter_engine_framework/macos/FlutterEmbedder.framework; sourceTree = "<group>"; };
+		C317E50F2120C11700746F90 /* FLEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLEView.m; path = ../../../library/FLEView.m; sourceTree = "<group>"; };
+		C317E5102120C11700746F90 /* FLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLEViewController.m; path = ../../../library/FLEViewController.m; sourceTree = "<group>"; };
+		C317E5112120C11700746F90 /* FLEReshapeListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEReshapeListener.h; path = ../../../library/FLEReshapeListener.h; sourceTree = "<group>"; };
+		C317E5122120C11700746F90 /* FLEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEView.h; path = ../../../library/FLEView.h; sourceTree = "<group>"; };
+		C317E5132120C11700746F90 /* FLECodecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLECodecs.m; path = ../../../library/FLECodecs.m; sourceTree = "<group>"; };
+		C317E5142120C11700746F90 /* FLEChannels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEChannels.h; path = ../../../library/FLEChannels.h; sourceTree = "<group>"; };
+		C317E5152120C11700746F90 /* FLEChannels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLEChannels.m; path = ../../../library/FLEChannels.m; sourceTree = "<group>"; };
+		C317E5162120C11700746F90 /* FLEPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEPlugin.h; path = ../../../library/FLEPlugin.h; sourceTree = "<group>"; };
+		C317E5172120C11700746F90 /* FLETextInputModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLETextInputModel.h; path = ../../../library/FLETextInputModel.h; sourceTree = "<group>"; };
+		C317E5182120C11700746F90 /* FLETextInputPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLETextInputPlugin.m; path = ../../../library/FLETextInputPlugin.m; sourceTree = "<group>"; };
+		C317E5192120C11700746F90 /* FlutterEmbedderMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlutterEmbedderMac.h; path = ../../../library/FlutterEmbedderMac.h; sourceTree = "<group>"; };
+		C317E51A2120C11700746F90 /* FLEOpenGLContextHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEOpenGLContextHandling.h; path = ../../../library/FLEOpenGLContextHandling.h; sourceTree = "<group>"; };
+		C317E51B2120C11700746F90 /* FLETextInputPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLETextInputPlugin.h; path = ../../../library/FLETextInputPlugin.h; sourceTree = "<group>"; };
+		C317E51C2120C11700746F90 /* FLECodecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLECodecs.h; path = ../../../library/FLECodecs.h; sourceTree = "<group>"; };
+		C317E51D2120C11700746F90 /* FLETextInputModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLETextInputModel.m; path = ../../../library/FLETextInputModel.m; sourceTree = "<group>"; };
+		C317E51E2120C11800746F90 /* FLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEViewController.h; path = ../../../library/FLEViewController.h; sourceTree = "<group>"; };
+		C317E5322120C14C00746F90 /* FLEColorPanelPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEColorPanelPlugin.h; path = ../../../../plugins/color_panel/macos/FLEColorPanelPlugin.h; sourceTree = "<group>"; };
+		C317E5332120C14C00746F90 /* FlutterEmbedderColorPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlutterEmbedderColorPanel.h; path = ../../../../plugins/color_panel/macos/FlutterEmbedderColorPanel.h; sourceTree = "<group>"; };
+		C317E5342120C14C00746F90 /* FLEColorPanelPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FLEColorPanelPlugin.mm; path = ../../../../plugins/color_panel/macos/FLEColorPanelPlugin.mm; sourceTree = "<group>"; };
+		C317E5382120C15300746F90 /* channel_constants.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = channel_constants.cc; path = ../../../../plugins/color_panel/common/channel_constants.cc; sourceTree = "<group>"; };
+		C317E5392120C15300746F90 /* channel_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = channel_constants.h; path = ../../../../plugins/color_panel/common/channel_constants.h; sourceTree = "<group>"; };
+		C317E53C2120C16200746F90 /* FLEFileChooserPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEFileChooserPlugin.h; path = ../../../../plugins/file_chooser/macos/FLEFileChooserPlugin.h; sourceTree = "<group>"; };
+		C317E53D2120C16200746F90 /* FLEFileChooserPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FLEFileChooserPlugin.mm; path = ../../../../plugins/file_chooser/macos/FLEFileChooserPlugin.mm; sourceTree = "<group>"; };
+		C317E53E2120C16200746F90 /* FlutterEmbedderFileChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlutterEmbedderFileChooser.h; path = ../../../../plugins/file_chooser/macos/FlutterEmbedderFileChooser.h; sourceTree = "<group>"; };
+		C317E5422120C17200746F90 /* channel_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = channel_constants.h; path = ../../../../plugins/file_chooser/common/channel_constants.h; sourceTree = "<group>"; };
+		C317E5432120C17200746F90 /* channel_constants.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = channel_constants.cc; path = ../../../../plugins/file_chooser/common/channel_constants.cc; sourceTree = "<group>"; };
+		C317E5462120C18200746F90 /* FLEMenubarPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FLEMenubarPlugin.mm; path = ../../../../plugins/menubar/macos/FLEMenubarPlugin.mm; sourceTree = "<group>"; };
+		C317E5472120C18200746F90 /* FlutterEmbedderMenubar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlutterEmbedderMenubar.h; path = ../../../../plugins/menubar/macos/FlutterEmbedderMenubar.h; sourceTree = "<group>"; };
+		C317E5482120C18200746F90 /* FlutterEmbedderFileChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlutterEmbedderFileChooser.h; path = ../../../../plugins/menubar/macos/FlutterEmbedderFileChooser.h; sourceTree = "<group>"; };
+		C317E5492120C18200746F90 /* FLEMenubarPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLEMenubarPlugin.h; path = ../../../../plugins/menubar/macos/FLEMenubarPlugin.h; sourceTree = "<group>"; };
+		C317E54E2120C18D00746F90 /* channel_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = channel_constants.h; path = ../../../../plugins/menubar/common/channel_constants.h; sourceTree = "<group>"; };
+		C317E54F2120C18D00746F90 /* channel_constants.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = channel_constants.cc; path = ../../../../plugins/menubar/common/channel_constants.cc; sourceTree = "<group>"; };
+		C317E552212141C600746F90 /* FlutterEmbedder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterEmbedder.h; sourceTree = "<group>"; };
+		C317E554212142BA00746F90 /* statwithframe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "statwithframe-Bridging-Header.h"; sourceTree = "<group>"; };
+		C317E555212142BB00746F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../example/Assets.xcassets; sourceTree = "<group>"; };
+		C317E558212142BB00746F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
+		C317E57821214A6800746F90 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = statwithframe/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C317E57921214A6800746F90 /* NewExampleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewExampleWindow.m; path = statwithframe/NewExampleWindow.m; sourceTree = SOURCE_ROOT; };
+		C317E57A21214A6800746F90 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = statwithframe/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C317E57B21214A6800746F90 /* NewExampleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewExampleWindow.h; path = statwithframe/NewExampleWindow.h; sourceTree = SOURCE_ROOT; };
+		C317E58021214A7600746F90 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C317E58121214A7600746F90 /* NewExampleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewExampleWindow.m; sourceTree = "<group>"; };
+		C317E58221214A7600746F90 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C317E58321214A7600746F90 /* NewExampleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewExampleWindow.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C317E4CF2120A5B100746F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C317E55D2121431C00746F90 /* FlutterEmbedder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C317E4C92120A5B100746F90 = {
+			isa = PBXGroup;
+			children = (
+				C317E5312120C13300746F90 /* menubar */,
+				C317E5302120C12E00746F90 /* file_chooser */,
+				C317E52F2120C12800746F90 /* color_panel */,
+				C317E50E2120C10D00746F90 /* library */,
+				C317E4D42120A5B100746F90 /* statwithframe */,
+				C317E4D32120A5B100746F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C317E4D32120A5B100746F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C317E4D22120A5B100746F90 /* libstatwithframe.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C317E4D42120A5B100746F90 /* statwithframe */ = {
+			isa = PBXGroup;
+			children = (
+				C317E4FE2120C0D200746F90 /* FlutterEmbedder.framework */,
+				C317E4FB2120C02100746F90 /* Info.plist */,
+				C317E552212141C600746F90 /* FlutterEmbedder.h */,
+				C317E555212142BB00746F90 /* Assets.xcassets */,
+				C317E556212142BB00746F90 /* Base.lproj */,
+				C317E4DE2120A5DA00746F90 /* greeter.h */,
+				C317E4DF2120A5DA00746F90 /* main.mm */,
+				C317E4E12120A5DB00746F90 /* ViewController.h */,
+				C317E58021214A7600746F90 /* AppDelegate.h */,
+				C317E58221214A7600746F90 /* AppDelegate.m */,
+				C317E58321214A7600746F90 /* NewExampleWindow.h */,
+				C317E58121214A7600746F90 /* NewExampleWindow.m */,
+				C317E4E22120A5DB00746F90 /* ViewController.m */,
+				C317E4D52120A5B100746F90 /* statwithframe.h */,
+				C317E4D72120A5B100746F90 /* statwithframe.m */,
+				C317E554212142BA00746F90 /* statwithframe-Bridging-Header.h */,
+			);
+			path = statwithframe;
+			sourceTree = "<group>";
+		};
+		C317E50E2120C10D00746F90 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				C317E5142120C11700746F90 /* FLEChannels.h */,
+				C317E5152120C11700746F90 /* FLEChannels.m */,
+				C317E51C2120C11700746F90 /* FLECodecs.h */,
+				C317E5132120C11700746F90 /* FLECodecs.m */,
+				C317E51A2120C11700746F90 /* FLEOpenGLContextHandling.h */,
+				C317E5162120C11700746F90 /* FLEPlugin.h */,
+				C317E5112120C11700746F90 /* FLEReshapeListener.h */,
+				C317E5172120C11700746F90 /* FLETextInputModel.h */,
+				C317E51D2120C11700746F90 /* FLETextInputModel.m */,
+				C317E51B2120C11700746F90 /* FLETextInputPlugin.h */,
+				C317E5182120C11700746F90 /* FLETextInputPlugin.m */,
+				C317E5122120C11700746F90 /* FLEView.h */,
+				C317E50F2120C11700746F90 /* FLEView.m */,
+				C317E51E2120C11800746F90 /* FLEViewController.h */,
+				C317E5102120C11700746F90 /* FLEViewController.m */,
+				C317E5192120C11700746F90 /* FlutterEmbedderMac.h */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		C317E52F2120C12800746F90 /* color_panel */ = {
+			isa = PBXGroup;
+			children = (
+				C317E54F2120C18D00746F90 /* channel_constants.cc */,
+				C317E54E2120C18D00746F90 /* channel_constants.h */,
+				C317E5492120C18200746F90 /* FLEMenubarPlugin.h */,
+				C317E5462120C18200746F90 /* FLEMenubarPlugin.mm */,
+				C317E5482120C18200746F90 /* FlutterEmbedderFileChooser.h */,
+				C317E5472120C18200746F90 /* FlutterEmbedderMenubar.h */,
+			);
+			path = color_panel;
+			sourceTree = "<group>";
+		};
+		C317E5302120C12E00746F90 /* file_chooser */ = {
+			isa = PBXGroup;
+			children = (
+				C317E53C2120C16200746F90 /* FLEFileChooserPlugin.h */,
+				C317E5432120C17200746F90 /* channel_constants.cc */,
+				C317E5422120C17200746F90 /* channel_constants.h */,
+				C317E53D2120C16200746F90 /* FLEFileChooserPlugin.mm */,
+				C317E53E2120C16200746F90 /* FlutterEmbedderFileChooser.h */,
+			);
+			path = file_chooser;
+			sourceTree = "<group>";
+		};
+		C317E5312120C13300746F90 /* menubar */ = {
+			isa = PBXGroup;
+			children = (
+				C317E5382120C15300746F90 /* channel_constants.cc */,
+				C317E5392120C15300746F90 /* channel_constants.h */,
+				C317E5322120C14C00746F90 /* FLEColorPanelPlugin.h */,
+				C317E5342120C14C00746F90 /* FLEColorPanelPlugin.mm */,
+				C317E5332120C14C00746F90 /* FlutterEmbedderColorPanel.h */,
+			);
+			path = menubar;
+			sourceTree = "<group>";
+		};
+		C317E556212142BB00746F90 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C317E57821214A6800746F90 /* AppDelegate.h */,
+				C317E57A21214A6800746F90 /* AppDelegate.m */,
+				C317E57B21214A6800746F90 /* NewExampleWindow.h */,
+				C317E57921214A6800746F90 /* NewExampleWindow.m */,
+				C317E557212142BB00746F90 /* MainMenu.xib */,
+			);
+			name = Base.lproj;
+			path = ../../../example/Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C317E4D02120A5B100746F90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C317E4D62120A5B100746F90 /* statwithframe.h in Headers */,
+				C317E553212141C600746F90 /* FlutterEmbedder.h in Headers */,
+				C317E4E42120A5DB00746F90 /* greeter.h in Headers */,
+				C317E5272120C11800746F90 /* FLETextInputModel.h in Headers */,
+				C317E57C21214A6800746F90 /* AppDelegate.h in Headers */,
+				C317E52A2120C11800746F90 /* FLEOpenGLContextHandling.h in Headers */,
+				C317E5292120C11800746F90 /* FlutterEmbedderMac.h in Headers */,
+				C317E52B2120C11800746F90 /* FLETextInputPlugin.h in Headers */,
+				C317E54D2120C18200746F90 /* FLEMenubarPlugin.h in Headers */,
+				C317E5212120C11800746F90 /* FLEReshapeListener.h in Headers */,
+				C317E53F2120C16200746F90 /* FLEFileChooserPlugin.h in Headers */,
+				C317E52C2120C11800746F90 /* FLECodecs.h in Headers */,
+				C317E53B2120C15300746F90 /* channel_constants.h in Headers */,
+				C317E5442120C17200746F90 /* channel_constants.h in Headers */,
+				C317E4E72120A5DB00746F90 /* ViewController.h in Headers */,
+				C317E5352120C14C00746F90 /* FLEColorPanelPlugin.h in Headers */,
+				C317E5412120C16200746F90 /* FlutterEmbedderFileChooser.h in Headers */,
+				C317E5222120C11800746F90 /* FLEView.h in Headers */,
+				C317E57F21214A6800746F90 /* NewExampleWindow.h in Headers */,
+				C317E5242120C11800746F90 /* FLEChannels.h in Headers */,
+				C317E5262120C11800746F90 /* FLEPlugin.h in Headers */,
+				C317E54B2120C18200746F90 /* FlutterEmbedderMenubar.h in Headers */,
+				C317E54C2120C18200746F90 /* FlutterEmbedderFileChooser.h in Headers */,
+				C317E58421214A7600746F90 /* AppDelegate.h in Headers */,
+				C317E5362120C14C00746F90 /* FlutterEmbedderColorPanel.h in Headers */,
+				C317E5502120C18D00746F90 /* channel_constants.h in Headers */,
+				C317E52E2120C11800746F90 /* FLEViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C317E4D12120A5B100746F90 /* statwithframe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C317E4DB2120A5B100746F90 /* Build configuration list for PBXNativeTarget "statwithframe" */;
+			buildPhases = (
+				C317E4CE2120A5B100746F90 /* Sources */,
+				C317E4CF2120A5B100746F90 /* Frameworks */,
+				C317E4D02120A5B100746F90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = statwithframe;
+			productName = statwithframe;
+			productReference = C317E4D22120A5B100746F90 /* libstatwithframe.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C317E4CA2120A5B100746F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					C317E4D12120A5B100746F90 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = C317E4CD2120A5B100746F90 /* Build configuration list for PBXProject "statwithframe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C317E4C92120A5B100746F90;
+			productRefGroup = C317E4D32120A5B100746F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C317E4D12120A5B100746F90 /* statwithframe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C317E4CE2120A5B100746F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C317E58621214A7600746F90 /* AppDelegate.m in Sources */,
+				C317E5282120C11800746F90 /* FLETextInputPlugin.m in Sources */,
+				C317E52D2120C11800746F90 /* FLETextInputModel.m in Sources */,
+				C317E5232120C11800746F90 /* FLECodecs.m in Sources */,
+				C317E4E52120A5DB00746F90 /* main.mm in Sources */,
+				C317E4D82120A5B100746F90 /* statwithframe.m in Sources */,
+				C317E53A2120C15300746F90 /* channel_constants.cc in Sources */,
+				C317E54A2120C18200746F90 /* FLEMenubarPlugin.mm in Sources */,
+				C317E5252120C11800746F90 /* FLEChannels.m in Sources */,
+				C317E5452120C17200746F90 /* channel_constants.cc in Sources */,
+				C317E5372120C14C00746F90 /* FLEColorPanelPlugin.mm in Sources */,
+				C317E51F2120C11800746F90 /* FLEView.m in Sources */,
+				C317E58521214A7600746F90 /* NewExampleWindow.m in Sources */,
+				C317E57D21214A6800746F90 /* NewExampleWindow.m in Sources */,
+				C317E5402120C16200746F90 /* FLEFileChooserPlugin.mm in Sources */,
+				C317E4E82120A5DB00746F90 /* ViewController.m in Sources */,
+				C317E57E21214A6800746F90 /* AppDelegate.m in Sources */,
+				C317E5512120C18D00746F90 /* channel_constants.cc in Sources */,
+				C317E5202120C11800746F90 /* FLEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C317E557212142BB00746F90 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C317E558212142BB00746F90 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C317E4D92120A5B100746F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C317E4DA2120A5B100746F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C317E4DC2120A5B100746F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5892LD7JW5;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "statwithframe/statwithframe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C317E4DD2120A5B100746F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5892LD7JW5;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "statwithframe/statwithframe-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C317E4CD2120A5B100746F90 /* Build configuration list for PBXProject "statwithframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C317E4D92120A5B100746F90 /* Debug */,
+				C317E4DA2120A5B100746F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C317E4DB2120A5B100746F90 /* Build configuration list for PBXNativeTarget "statwithframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C317E4DC2120A5B100746F90 /* Debug */,
+				C317E4DD2120A5B100746F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C317E4CA2120A5B100746F90 /* Project object */;
+}
