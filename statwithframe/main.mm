@@ -19,6 +19,7 @@ int bootstrap_e() {
         id delegate = [NewAppDelegate new];
         id window = [NewExampleWindow new];
         NSLog(@"Bootstrap init delegate: %@", delegate);
+        // hello
         NSLog(@"Bootstrap init window: %@", window);
         NSLog(@"Bootstrap init2");
         char *args[2];
